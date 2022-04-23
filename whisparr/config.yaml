@@ -2,7 +2,7 @@ name: Whisparr
 version: "nightly-0.1.0.27"
 slug: whisparr
 description: Whisparr
-url: "https://github.com/monkey-debugger/monkeys-homeassistant-addons"
+url: "https://github.com/monkey-debugger/monkeys-homeassistant-addons/tree/main/whisparr"
 arch:
   - aarch64
   - amd64
