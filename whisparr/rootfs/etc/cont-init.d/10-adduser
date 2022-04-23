@@ -53,4 +53,3 @@ fi
 
 chown hotio:hotio /app
 chown hotio:hotio /config
-chown hotio:hotio /defaults
