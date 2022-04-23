@@ -26,9 +26,9 @@ options:
   "cifsusername": "<username>"
   "networkdisks": "<//SERVER/SHARE>,<//SERVER2/SHARE2>"
 ports:
-  "9696/tcp": 9696
+  "6969/tcp": 6969
 ports_description:
-  "9696/tcp": "web interface"
+  "6969/tcp": "web interface"
 privileged:
   - "SYS_ADMIN"
   - "DAC_READ_SEARCH"
