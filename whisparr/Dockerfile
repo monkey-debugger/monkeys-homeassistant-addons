@@ -6,6 +6,9 @@ FROM ${BUILD_FROM}
 # 2 Modify Image #
 ##################
 
+# Add rootfs
+COPY rootfs/ /
+
 RUN \
     # Allow UID and GID setting
     sed -i 's/bash/bashio/g' /etc/cont-init.d/10-adduser \
@@ -20,9 +23,6 @@ RUN \
 ##################
 # 3 Install apps #
 ##################
-
-# Add rootfs
-COPY rootfs/ /
 
 # Modules
 ARG MODULES="00-banner.sh 92-smb_mounts.sh"
