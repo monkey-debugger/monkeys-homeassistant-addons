@@ -4,13 +4,8 @@ slug: whisparr
 description: Whisparr
 url: "https://github.com/monkey-debugger/monkeys-homeassistant-addons"
 arch:
-  - armhf
-  - armv7
   - aarch64
   - amd64
-  - i386
-apparmor: true
-boot: "auto"
 map:
   - "config:rw"
   - "share:rw"
@@ -41,5 +36,4 @@ schema:
   "networkdisks": "str?"
   "smbv1": "bool?"
 startup: "services"
-upstream: "nightly-0.1.0.27"
 webui: http://[HOST]:[PORT:6969]"

@@ -2,9 +2,6 @@
 build_from:
   aarch64: "cr.hotio.dev/hotio/whisparr:nightly-0.1.0.27"
   amd64: "cr.hotio.dev/hotio/whisparr:nightly-0.1.0.27"
-  armhf: "cr.hotio.dev/hotio/whisparr:nightly-0.1.0.27"
-  armv7: "cr.hotio.dev/hotio/whisparr:nightly-0.1.0.27"
-  i386: "cr.hotio.dev/hotio/whisparr:nightly-0.1.0.27"
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: Example add-on"
   org.opencontainers.image.description: "Example add-on to use as a blueprint for new add-ons."
