@@ -1,9 +1,7 @@
-<!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
+## nightly-0.1.0.33
 
-## 1.1.0
+- Updated to 0.1.0.33
 
-- Updates
-
-## 1.0.0
+## nightly-0.1.0.27
 
 - Initial release
