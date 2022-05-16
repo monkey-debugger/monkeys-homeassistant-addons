@@ -1,3 +1,7 @@
+## nightly-0.1.0.41
+
+- Updated to 0.1.0.41
+
 ## nightly-0.1.0.35
 
 - Updated to 0.1.0.35
