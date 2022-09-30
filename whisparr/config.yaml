@@ -1,4 +1,5 @@
 name: Whisparr
+# datasource=docker depName=hotio/whisparr
 version: "nightly-0.1.0.49"
 slug: whisparr
 description: Whisparr
