@@ -6,7 +6,7 @@
   "enabledManagers": ["regex"],
   "regexManagers": [
     {
-      "fileMatch": ["^(build.yaml|config.yaml$"],
+      "fileMatch": ["^(build.yaml|config.yaml)$"],
       "matchStringsStrategy": "any",
       "matchStrings": [
         "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)( extractVersion=(?<extractVersion>.*?))?( versioning=(?<versioning>.*?))?\\sversion: (?<currentValue>.*)\\s",
