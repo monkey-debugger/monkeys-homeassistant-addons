@@ -14,7 +14,8 @@
         "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)( extractVersion=(?<extractVersion>.*?))?( versioning=(?<versioning>.*?))?\\samd64: (?<currentValue>.*)\\s",
       ],
       "datasourceTemplate": "docker",
-      "versioningTemplate": "^nightly-?(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)\\.(?<build>\\d+)$",
+      "versioningTemplate": "^nightly-(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)\\.(?<build>\\d+)$",
+      "extractVersionTemplate": "^nightly-(?<version>.*)$"
     },
   ],
 }
