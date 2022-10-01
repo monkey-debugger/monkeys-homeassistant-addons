@@ -9,7 +9,7 @@
       "fileMatch": ["^.*build.yaml$", "^.*config.yaml$"],
       "matchStringsStrategy": "any",
       "matchStrings": [
-        "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)( extractVersion=(?<extractVersion>.*?))?( versioning=(?<versioning>.*?))?\\sversion: \"(?<currentValue>.*)\"\\s",
+        '^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)( extractVersion=(?<extractVersion>.*?))?( versioning=(?<versioning>.*?))?\\sversion: \\"(?<currentValue>.*)\\"\\s',
         "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)( extractVersion=(?<extractVersion>.*?))?( versioning=(?<versioning>.*?))?\\saarch64: (?<currentValue>.*)\\s",
         "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)( extractVersion=(?<extractVersion>.*?))?( versioning=(?<versioning>.*?))?\\samd64: (?<currentValue>.*)\\s",
       ],
