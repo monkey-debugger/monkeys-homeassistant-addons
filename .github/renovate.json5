@@ -9,13 +9,13 @@
       "fileMatch": ["^.*build.yaml$", "^.*config.yaml$"],
       "matchStringsStrategy": "any",
       "matchStrings": [
-        "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\nversion: (?<currentValue>.*)",
-        "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\saarch64: (?<currentValue>.*)",
-        "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\samd64: (?<currentValue>.*)",
+        "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\sversion: (?<currentValue>.*?)",
+        "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\saarch64: (?<currentValue>.*?)",
+        "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\samd64: (?<currentValue>.*?)",
       ],
       "datasourceTemplate": "docker",
-      "versioningTemplate": "^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)\\.(?<build>\\d+)$",
-      "extractVersionTemplate": "^nightly-(?<version>.*)$"
+      "versioningTemplate": "^(?<major>\\d?)\\.(?<minor>\\d?)\\.(?<patch>\\d?)\\.(?<build>\\d?)$",
+      "extractVersionTemplate": "^nightly-(?<version>.*?)$"
     },
   ],
 }
