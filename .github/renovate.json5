@@ -6,12 +6,9 @@
   "enabledManagers": ["regex"],
   "regexManagers": [
     {
-      "fileMatch": ["^.*build.yaml$", "^.*config.yaml$"],
-      "matchStringsStrategy": "any",
+      "fileMatch": ["^.*config.yaml$"],
       "matchStrings": [
         "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\sversion: (?<currentValue>.*?)",
-        "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\saarch64: (?<currentValue>.*?)",
-        "^# datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\samd64: (?<currentValue>.*?)",
       ],
       "datasourceTemplate": "docker",
       "versioningTemplate": "^(?<major>\\d?)\\.(?<minor>\\d?)\\.(?<patch>\\d?)\\.(?<build>\\d?)$",
