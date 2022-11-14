@@ -1,3 +1,7 @@
+## nightly-0.1.0.53
+
+- Updated to 0.1.0.53 ([#22](https://github.com/monkey-debugger/monkeys-homeassistant-addons/pull/22))
+
 ## nightly-0.1.0.49
 
 - Updated to 0.1.0.49
