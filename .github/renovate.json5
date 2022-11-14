@@ -11,7 +11,7 @@
         "datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\sversion: (?<currentValue>.*)",
       ],
       "datasourceTemplate": "docker",
-      "versioningTemplate": "regex:^(?<major>\\d?)\\.(?<minor>\\d?)\\.(?<patch>\\d?)\\.(?<build>\\d?)$",
+      "versioningTemplate": "regex:^nightly-(?<major>\\d?)\\.(?<minor>\\d?)\\.(?<patch>\\d?)\\.(?<build>\\d+?)$",
       "extractVersionTemplate": "^nightly-(?<version>.*?)$"
     },
   ],
