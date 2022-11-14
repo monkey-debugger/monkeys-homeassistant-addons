@@ -17,7 +17,7 @@
     {
       "fileMatch": ["^.*build.yaml$"],
       "matchStrings": [
-        "datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\s(aarch64|amd64): \"cr.hotio.dev/hotio/whisparr:(?<currentValue>.*)\"",
+        "datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\s*?(aarch64|amd64): \"cr\\.hotio\\.dev\\/hotio\\/whisparr:(?<currentValue>.*)\"",
       ],
       "datasourceTemplate": "docker",
       "versioningTemplate": "regex:^nightly-(?<major>\\d?)\\.(?<minor>\\d?)\\.(?<patch>\\d?)\\.(?<build>\\d+?)$",
