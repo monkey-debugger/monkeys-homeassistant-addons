@@ -4,6 +4,7 @@ version: nightly-0.1.0.53
 slug: whisparr
 description: Whisparr
 url: "https://github.com/monkey-debugger/monkeys-homeassistant-addons/tree/main/whisparr"
+init: false
 arch:
   - aarch64
   - amd64
@@ -18,9 +19,6 @@ environment:
 options:
   "PGID": 0
   "PUID": 0
-  "cifspassword": "<password>"
-  "cifsusername": "<username>"
-  "networkdisks": "<//SERVER/SHARE>,<//SERVER2/SHARE2>"
 ports:
   "6969/tcp": 6969
 ports_description:
@@ -31,10 +29,5 @@ privileged:
 schema:
   "PGID": "int"
   "PUID": "int"
-  "TZ": "str?"
-  "cifspassword": "str?"
-  "cifsusername": "str?"
-  "networkdisks": "str?"
-  "smbv1": "bool?"
 startup: "services"
 webui: http://[HOST]:[PORT:6969]"
