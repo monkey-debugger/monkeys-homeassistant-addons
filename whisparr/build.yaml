@@ -1,9 +1,9 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
 build_from:
   # datasource=docker depName=hotio/whisparr
-  aarch64: "ghcr.io/hotio/whisparr:nightly-0.1.0.53"
+  aarch64: "ghcr.io/hotio/whisparr:nightly-2.0.0.131"
   # datasource=docker depName=hotio/whisparr
-  amd64: "ghcr.io/hotio/whisparr:nightly-0.1.0.53"
+  amd64: "ghcr.io/hotio/whisparr:nightly-2.0.0.131"
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: Whisparr"
   org.opencontainers.image.description: "Whisparr."
